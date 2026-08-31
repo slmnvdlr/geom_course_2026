@@ -1,0 +1,17 @@
+name: scientific-graphics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0,<3
+  - pandas>=2.2,<3
+  - matplotlib>=3.9,<4
+  - scipy>=1.14,<2
+  - openpyxl>=3.1,<4
+  - jupyterlab>=4.2,<5
+  - ipykernel>=6.29,<7
+  - pip
+  - pip:
+      - dash>=2.18,<4
+      - plotly>=5.24,<7
+
