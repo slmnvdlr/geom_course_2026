@@ -16,7 +16,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r environment/requirements-core.txt
-python starter/smoke_test.py
+python homeworks/hw00/hello.py
 ```
 
 Для практикума по интерактивной графике:
@@ -30,7 +30,7 @@ python -m pip install -r environment/requirements-dash.txt
 ```text
 conda env create -f environment/environment.yml
 conda activate scientific-graphics
-python starter/smoke_test.py
+python homeworks/hw00/hello.py
 ```
 
 Выберите один способ управления окружением и придерживайтесь его весь семестр.
@@ -43,6 +43,6 @@ ParaView и Inkscape устанавливаются до соответству�
 
 - вывод `python --version`;
 - вывод `python -m pip --version`;
-- скриншот или файл `figures/environment-check.png`;
+- результат запуска `homeworks/hw00/hello.py`;
 - первый коммит в Git;
 - короткий `README` с выбранным набором данных или пометкой «набор ещё выбирается».
